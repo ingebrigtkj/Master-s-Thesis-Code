@@ -1,0 +1,17 @@
+name: tfenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.26.*
+  - scipy=1.11.*
+  - scikit-learn=1.3.*
+  - pandas=2.1.*
+  - matplotlib=3.8.*
+  - jupyterlab
+  - notebook
+  - pip:
+      - tensorflow==2.15.0
+      - keras==2.15.0
